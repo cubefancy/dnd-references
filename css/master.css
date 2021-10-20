@@ -1,0 +1,17 @@
+html {
+  font-family: sans-serif;
+  background-color: #fdd089;
+  font-size: large;
+}
+body {
+  text-align: center;
+}
+footer {
+  float: bottom;
+}
+.container {
+  text-align: center;
+}
+.btn-link {
+  font-size: large;
+}

@@ -11,8 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <title>Dungeons and Dragons Reference</title>
     <link rel="stylesheet" href="/css/master.css">
+    <title>Classes</title>
   </head>
 
   <body style="background-color: #fdd089;">
@@ -47,12 +47,8 @@
     </nav>
 
     <div id="shell">
-      <br>
-      <h3>D&D Reference Home</h3>
-      <br>
-      <button id="class_button" class="btn btn-link btn-lg">Classes</button>
-      <button id="race_button" class="btn btn-link btn-lg">Playable Races</button>
-      <button id="monster_button" class="btn btn-link btn-lg">Monsters</button>
+      <div id="followup">
+      </div>
     </div>
   </body>
 
@@ -61,7 +57,12 @@
       <br><p>https://github.com/cubefancy/dnd-references.git</p>
     </div>
   </footer>
+
   <script src="scripts/basic.js" charset="utf-8"></script>
-  <script src="scripts/buttons.js" charset="utf-8"></script>
+  <script src="scripts/classify.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    ignite("classes");
+  </script>
+
 
 </html>
